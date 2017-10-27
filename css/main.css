@@ -17,6 +17,7 @@
    height: 108px;
    width: 100%;
    position: fixed;
+   margin-top: 0;
  }
  .bootstrap{
    /*outline: 1px solid black;*/
@@ -53,3 +54,30 @@
  a{
    text-decoration: none;
  }
+
+ .page-name{
+   text-transform: uppercase;
+ }
+.main-section{
+  background: #18bc9c;
+  text-align: center;
+  height: 700px;
+  width: 100%;
+  padding-top: 160px;
+}
+.page-name{
+  font-size: 80px;
+  font-weight: 600;
+  color: #fff;
+}
+.my-skills{
+  font-size: 27px;
+  color: #fff;
+}
+.title-line{
+  height: 4px;
+  width: 300px;
+  background: #fff;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
