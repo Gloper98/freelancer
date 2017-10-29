@@ -122,6 +122,7 @@ div{
   background: #18bc9c;
   text-align: center;
   padding: 30px;
+  height: 500px;
 }
 .about-title{
   color: #fff;
@@ -139,5 +140,50 @@ div{
   padding: 0px;
 }
 .information{
-  padding: 0 300px;
+  padding: 10px 300px;
+  margin-bottom: 20px;
+
+}
+.text-one{
+  display: inline-block;
+  width: 300px;
+  text-align:left;
+  font-size: 20px;
+  color: #fff;
+  margin:0 20px;
+}
+.text-two{
+  display: inline-block;
+  width: 300px;
+  text-align:left;
+  font-size: 20px;
+  color: #fff;
+  margin:0 20px;
+}
+.download{
+  margin: 0 628px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 3px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.download-link{
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 0;
+}
+.icon-download{
+  color: #fff;
+  padding: 0;
+  margin-left: 5px;
+}
+.link-one{
+  padding: 0;
+}
+.formulary{
+  display: block;
 }
