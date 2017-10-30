@@ -1,10 +1,10 @@
-/*
- * Estilos de tu proyecto
- */
+/*body styles*/
  body {
    font-family: lato,sans-serif;
    margin: 0;
  }
+
+ /*Nav styles*/
  nav {
   /* outline: 1px solid red;*/
    height: 108px;
@@ -13,6 +13,8 @@
    background-color: #2c3e50;
    z-index: 100;
  }
+
+ /*Header styles*/
  header {
    /*outline: 1px solid blue;*/
    height: 108px;
@@ -20,6 +22,7 @@
    position: fixed;
    margin-top: 0;
  }
+ /* Web Page title styles*/
  .bootstrap{
    /*outline: 1px solid black;*/
    margin-top: 2.2%;
@@ -29,6 +32,7 @@
    font-weight: 800;
    text-transform: uppercase;
  }
+ /*web page menu styles*/
  .nav-list{
    /*outline: 1px solid yellow;*/
    list-style: none;
@@ -40,25 +44,33 @@
    font-weight: 800;
    font-size: 15px;
  }
+ /*Web page menu styles*/
  .options{
    /*outline: 1px solid green;*/
    display: inline-block;
    margin-left: 15px;
  }
+ /*Main title font color*/
 .main-title{
   color: #fff;
 }
+/*Main menu font color*/
 .main-menu{
   color: #fff;
 }
-
+/*link style*/
  a{
    text-decoration: none;
  }
-
+/*Page title style*/
  .page-name{
    text-transform: uppercase;
+   font-size: 80px;
+   font-weight: 600;
+   color: #fff;
  }
+
+ /*First section style*/
 .main-section{
   background: #18bc9c;
   text-align: center;
@@ -66,22 +78,12 @@
   width: 100%;
   padding-top: 160px;
 }
-.page-name{
-  font-size: 80px;
-  font-weight: 600;
-  color: #fff;
-}
+/*First content description style*/
 .my-skills{
   font-size: 27px;
   color: #fff;
 }
-.title-line{
-  height: 4px;
-  width: 320px;
-  background: #fff;
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
+/*Decoration line style*/
 .star {
   width: 250px;
   margin: auto;
@@ -100,6 +102,17 @@
 .star::before{
   margin-right: 5px;
 }
+/*Second section title style*/
+h2{
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.portfolio-central-title{
+    color: #2c3e50;
+}
+/*Second style of decoration line*/
 .star-second {
   width: 250px;
   margin: auto;
@@ -118,65 +131,57 @@
 .star-second::before{
   margin-right: 5px;
 }
-h2{
-  text-transform: uppercase;
-  font-size: 17px;
-  font-weight: 600;
-  margin-top: 40px;
-}
-.portfolio-central-title{
-    color: #2c3e50;
-}
 /*div{
   outline: 1px solid blue;
 }*/
+
+/*Second section style*/
 .portfolio{
   text-align: center;
   padding: 90px;
   outline: 1px solid red;
 }
+/*Second section positioning*/
 .portfolio-galery{
   position: relative;
-
 }
+/*Portfolio photo style*/
 .portfolio-photo{
   display: inline-block;
   width: 350px;
   margin: 20px;
 }
+/*Portfolio central title style*/
 .portfolio-central-title {
   font-size: 48px;
 }
+/*Photo style*/
 .proyect-photo{
   display: inline-block;
   width: 100%;
 }
+/*Third section style*/
 .about{
   background: #18bc9c;
   text-align: center;
   padding: 30px;
   height: 500px;
 }
+/*Third section title style*/
 .about-title{
   color: #fff;
   margin-top: 80px;
 }
+
 .about-central-title{
   font-size: 48px;
 }
-.about-line{
-  height: 4px;
-  width: 300px;
-  background: #fff;
-  margin-top: 0;
-  margin-bottom: 30px;
-  padding: 0px;
-}
+/*Third section information style*/
 .information{
   padding: 10px 300px;
   margin-bottom: 20px;
-
 }
+/*Content styles*/
 .text-one{
   display: inline-block;
   width: 300px;
@@ -193,6 +198,7 @@ h2{
   color: #fff;
   margin:0 20px;
 }
+/*Download button style*/
 .download{
   margin: 0 628px;
   padding-top: 0;
@@ -218,9 +224,10 @@ h2{
 .link-one{
   padding: 0;
 }
-.formulary{
-  display: block;
-}
+
+/*FORMULARY SECTION*/
+
+/*Title style*/
 .contact-me{
   color: #2c3e50;
   font-size: 50px;
@@ -233,6 +240,11 @@ h2{
 .contactme-title {
   margin-bottom: 40px;
 }
+/*Formulary style*/
+.formulary{
+  display: block;
+}
+
 .document-formulary{
   list-style: none;
   margin-left: none;
@@ -278,6 +290,7 @@ input:active{
   color: #595959;
   font-size: 25px;
 }
+/*Send button style*/
 button{
   margin-left: 40px;
   background: #18bc9c;
@@ -293,24 +306,41 @@ button{
 button:hover{
   background-color: #28a745;
 }
+
+/*FOOTER STYLE*/
+
 footer{
   text-align: center;
   background-color: #2c3e50;
   color: #fff;
   height: 320px;
 }
-.title-footer{
-  font-size: 28px;
-  margin-bottom: 40px;
-}
 .footer-section{
   width: 400px;
   display: inline-block;
   margin-top: 30px;
 }
+
+/*Footer content style*/
+.title-footer{
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
 .text-footer{
   font-size: 20px;
 }
+.footer-link{
+  color: #18bc9c;
+}
+.copyright{
+  margin-bottom: 0px;
+}
+.copyright-footer{
+  /*outline: 1px solid red;*/
+  margin-top: 70px;
+}
+/*Icon style*/
 div .icon{
   font-size: 25px;
   border-radius: 50%;
@@ -323,16 +353,8 @@ div .icon{
   margin: 5px 5px 20px 5px;
   cursor: pointer;
 }
-.footer-link{
-  color: #18bc9c;
-}
-.copyright{
-  margin-bottom: 0px;
-}
-.copyright-footer{
-  /*outline: 1px solid red;*/
-  margin-top: 70px;
-}
+
+/*Some hover effects*/
 .main-menu:hover{
   color: #18bc9c;
 }
