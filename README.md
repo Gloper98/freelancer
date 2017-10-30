@@ -13,7 +13,7 @@ Replicar el sitio de **Freelancer**, segun se muestra en la siguiente imagen:
 ## Archivos y directorios
 
 * Un archivo base `index.html` en el cual se encuentra escrita la
-  estructura de tu proyecto.
+  estructura del proyecto.
 
 * Una carpeta `css` en la cual se encuentra un archivo base `main.css` con los
   estilos necesarios para el proyecto.
@@ -21,7 +21,7 @@ Replicar el sitio de **Freelancer**, segun se muestra en la siguiente imagen:
 * Una carpeta :`assets` ,`images` donde
   se encuentran las imagenes a emplear en el proyecto.
 
-* Un archivo ** `README.md`** explicando el contenido de el
+* Un archivo  `README.md` explicando el contenido de el
   repositorio.
 
 ## Sobre el proyecto
