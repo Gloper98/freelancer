@@ -138,7 +138,7 @@ h2{
 /*Second section style*/
 .portfolio{
   text-align: center;
-  padding: 90px;
+  padding: 5%;
   /*outline: 1px solid red;*/
 }
 /*Second section positioning*/
@@ -148,8 +148,8 @@ h2{
 /*Portfolio photo style*/
 .portfolio-photo{
   display: inline-block;
-  width: 350px;
-  margin: 20px;
+  width: 25%;
+  margin: 2%;
 }
 /*Portfolio central title style*/
 .portfolio-central-title {
@@ -164,8 +164,8 @@ h2{
 .about{
   background: #18bc9c;
   text-align: center;
-  padding: 30px;
-  height: 500px;
+  padding: 4% 1% 8% 1%;
+
 }
 /*Third section title style*/
 .about-title{
@@ -178,29 +178,31 @@ h2{
 }
 /*Third section information style*/
 .information{
-  padding: 10px 300px;
-  margin-bottom: 20px;
+  padding: 1% 18%;
+  margin-bottom: 2%;
 }
 /*Content styles*/
 .text-one{
   display: inline-block;
-  width: 300px;
+  width: 330px;
   text-align:left;
-  font-size: 20px;
+  font-size: 19px;
   color: #fff;
-  margin:0 20px;
+  margin:0 3%;
+  line-height: 150%;
 }
 .text-two{
   display: inline-block;
-  width: 300px;
+  width: 330px;
   text-align:left;
-  font-size: 20px;
+  font-size: 19px;
   color: #fff;
   margin:0 20px;
+  line-height: 150%;
 }
 /*Download button style*/
 .download{
-  margin: 0 628px;
+  margin: 0 42%;
   padding-top: 0;
   padding-bottom: 0;
   border: 3px solid white;
@@ -210,7 +212,7 @@ h2{
 }
 .download-link{
   display: inline-block;
-  margin: 10px 10px 10px 10px;
+  margin: 5%;
   color: #fff;
   text-transform: capitalize;
   font-size: 18px;
@@ -219,7 +221,7 @@ h2{
 .icon-download{
   color: #fff;
   padding: 0;
-  margin-left: 5px;
+  margin-left: 1%;
 }
 .link-one{
   padding: 0;
@@ -250,7 +252,7 @@ h2{
   margin-left: none;
 }
 .formulary-set{
-  padding: 0 360px;
+  padding: 0 27%;
   text-align: left;
 }
 .description{
@@ -322,6 +324,11 @@ footer{
 }
 
 /*Footer content style*/
+footer{
+  width: 100%;
+  height: auto;
+  padding-bottom: 3%;
+}
 .title-footer{
   font-size: 28px;
   margin-bottom: 40px;
@@ -334,7 +341,7 @@ footer{
   color: #18bc9c;
 }
 .copyright{
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .copyright-footer{
   /*outline: 1px solid red;*/
