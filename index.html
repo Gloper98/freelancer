@@ -14,14 +14,14 @@
       <div class="bootstrap">
         <a class="main-title"href="#">start bootstrap</a>
       </div>
-      <ul>
-        <li>
+      <ul class="nav-list">
+        <li class="options">
           <a class="main-menu"href="#">portafolio</a>
         </li>
-        <li>
+        <li class="options">
            <a class="main-menu"href="#">about</a>
         </li>
-        <li>
+        <li class="options">
            <a class="main-menu"href="#">contact</a>
         </li>
       </ul>
@@ -35,14 +35,19 @@
       <div class="presentation">
         <span class="page-name">start bootstrap</span>
       </div>
-      <hr class="title-line">
+      <div class="star">
+	        <i class= "icon-star" aria-hidden="true"></i>
+        </div>
+
       <span class="my-skills">Web Developer - Graphic Artist - User Experience Designer</span>
     </section>
 
     <section class="portfolio">
       <div class="portfolio-title">
         <h2 class="portfolio-central-title">portfolio</h2>
-        <hr class="portfolio-line">
+        <div class="star-second">
+  	        <i class= "icon-star" aria-hidden="true"></i>
+          </div>
       </div>
 
       <div class="portfolio-galery">
@@ -80,7 +85,9 @@
       <div class="about-title">
           <h2 class="about-central-title">about</h2>
       </div>
-      <hr class="about-line">
+      <div class="star">
+          <i class= "icon-star" aria-hidden="true"></i>
+        </div>
       <div class="information">
         <div class="text-one">
         <!--<p class="information-text" class="first-paragraph">-->Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
@@ -95,19 +102,79 @@
       </a>
       </div>
     </section>
-    <section class="contactme">
+    <section class="contact-me-section">
       <div class="contactme-title">
-        <span class="contact-me">contact me</span>
-        <hr class="contactme-line">
+        <h2 class="contact-me">contact me</h2>
+        <div class="star-second">
+  	        <i class= "icon-star" aria-hidden="true"></i>
+          </div>
       </div>
+
+      <div class="formulary-set">
       <form class="" action="index.html" method="post">
-          <input class="formulary"type="text" name="" value=""placeholder="Name">
-          <input class="formulary"type="text" name="" value=""placeholder="Email Adress">
-          <input class="formulary"type="text" name="" value=""placeholder="Phone Number">
-          <input class="formulary"type="text" name="" value=""placeholder="Meassage">
+        <ul class="document-formulary">
+          <li class="space">
+            <p class="description">name</p>
+            <input class="formulary"type="text" name="" value=""placeholder="Name">
+            <hr class="formulary-line">
+          </li>
+           <li class="space">
+             <p class="description">email adress</p>
+             <input class="formulary"type="text" name="" value=""placeholder="Email Adress">
+             <hr class="formulary-line">
+           </li>
+             <li class="space">
+               <p class="description">phone number</p>
+               <input class="formulary"type="text" name="" value=""placeholder="Phone Number">
+               <hr class="formulary-line">
+             </li>
+              <li class="space">
+                <p class="description">message</p>
+                <textarea  id="message"type="text" name="" value=""placeholder="Message"></textarea>
+                <hr class="formulary-line">
+              </li>
+        </ul>
       </form>
-      <hr class="form-line">
-      <a class="send"href="#">send</a>
+      <button type="button" name="button">Send</button>
+      </div>
+
+    <footer>
+
+      <div class="footer-section">
+        <h2 class="title-footer">Location</h2>
+        <p class="text-footer">3481 Melrose Place Beverly Hills, CA 90210</p>
+      </div>
+
+      <div class="footer-section">
+          <h2 class="title-footer">Around the web</h2>
+             <div class="icon">
+             <span class="icon-facebook"></span>
+            </div>
+              <div class="icon">
+              <span class="icon-google-plus"></span>
+             </div>
+             <div class="icon">
+               <span class="icon-twitter"></span>
+              </div>
+              <div class="icon">
+                <span class="icon-linkedin2"></span>
+               </div>
+              <div class="icon">
+                 <span class="icon-dribbble"></span>
+                </div>
+      </div>
+
+      <div class="footer-section">
+        <h2 class="title-footer">About freelancer</h2>
+        <p class="text-footer">Freelance is a free to use, open source Bootstrap theme created by <a class="footer-link"href="#">Start Bootstrap</a>.</p>
+      </div>
+
+      <div class="copyright-footer">
+         <p class="copyright">Copyright © Your Website 2017</p>
+      </div>
+
+    </footer>
+
     </section>
 
   </body>
