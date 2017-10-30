@@ -139,7 +139,7 @@ h2{
 .portfolio{
   text-align: center;
   padding: 90px;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 /*Second section positioning*/
 .portfolio-galery{
@@ -365,4 +365,7 @@ div .icon{
 .icon:hover{
   background-color: #fff;
   color: #2c3e50;
+}
+.proyect-photo:hover{
+  cursor: pointer;
 }
